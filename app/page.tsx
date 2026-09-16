@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import { Mail, Calendar, ExternalLink, ShieldCheck } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { Playground } from "@/components/Playground";
@@ -88,27 +89,56 @@ export default function Home() {
         </main>
       </div>
 
-      {/* Footer */}
-      <footer className="border-t border-white/[0.08] bg-[#05070a] py-8 text-center text-xs text-slate-500">
-        <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2.5">
-            <div className="w-5 h-5 rounded-md overflow-hidden bg-[#090d16] border border-white/10 flex items-center justify-center">
+      {/* Footer & Developer Identity */}
+      <footer className="border-t border-white/[0.08] bg-[#05070a] py-10 text-xs text-slate-500">
+        <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex items-center gap-3">
+            <div className="w-7 h-7 rounded-lg overflow-hidden bg-[#090d16] border border-white/10 flex items-center justify-center shrink-0">
               <Image
                 src="/pulsebrief-logo.png"
                 alt="PulseBrief Logo"
-                width={20}
-                height={20}
+                width={28}
+                height={28}
                 className="w-full h-full object-cover"
               />
             </div>
-            <span className="font-semibold text-slate-300">PulseBrief</span>
-            <span>•</span>
-            <span className="text-emerald-400 font-medium">Zero Data Retention (Ephemeral)</span>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="font-bold text-slate-200 text-sm">PulseBrief</span>
+                <span className="text-[10px] px-2 py-0.5 rounded bg-white/[0.04] text-slate-400 border border-white/[0.06]">
+                  AI Engineering Studio
+                </span>
+              </div>
+              <p className="text-[11px] text-slate-500 mt-0.5">
+                Engineered by <strong className="text-slate-300 font-medium">Ruthvik</strong> • Full-Stack AI MVP Development
+              </p>
+            </div>
           </div>
-          <div className="flex items-center gap-2 text-slate-400">
-            <span>🔒 All data purged on session close</span>
-            <span>•</span>
-            <span>Zero database storage</span>
+
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-xs text-slate-400">
+            <a
+              href="mailto:yemmeruthvik16@gmail.com"
+              className="flex items-center gap-1.5 text-slate-300 hover:text-cyan-300 transition-colors group"
+            >
+              <Mail className="w-3.5 h-3.5 text-cyan-400 group-hover:scale-110 transition-transform" />
+              <span>yemmeruthvik16@gmail.com</span>
+            </a>
+            <span className="hidden sm:inline text-slate-700">•</span>
+            <a
+              href="https://cal.com/ruthvikyem/15min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 text-slate-300 hover:text-cyan-300 transition-colors group"
+            >
+              <Calendar className="w-3.5 h-3.5 text-indigo-400 group-hover:scale-110 transition-transform" />
+              <span>cal.com/ruthvikyem</span>
+              <ExternalLink className="w-3 h-3 text-slate-500" />
+            </a>
+          </div>
+
+          <div className="flex items-center gap-1.5 text-slate-500 text-[11px]">
+            <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+            <span>Zero Data Retention • Ephemeral</span>
           </div>
         </div>
       </footer>
