@@ -1,0 +1,18 @@
+[
+  {
+    "leadId": "PB-27871778",
+    "timestamp": "2026-09-16T12:39:12.787Z",
+    "contact": "elon@spacex.com",
+    "pitch": "Autonomous document parsing engine for aerospace telemetry and launch checklist validation.",
+    "timeline": "⚡ 5–7 Days (Rapid MVP)",
+    "budget": ",000 – ,000 (Full Stack)"
+  },
+  {
+    "leadId": "PB-04282940",
+    "timestamp": "2026-09-16T12:26:50.428Z",
+    "contact": "alex@foundertech.co",
+    "pitch": "Full-stack AI CRM data extractor for venture debt funds with automated Slack notifications.",
+    "timeline": "⚡ 5–7 Days (Rapid MVP)",
+    "budget": ",000 – ,500 (Full Stack)"
+  }
+]
