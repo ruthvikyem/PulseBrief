@@ -28,12 +28,9 @@ export function Navbar({ onOpenBooking }: NavbarProps) {
             <div className="absolute -top-1 -right-1 w-3.5 h-3.5 bg-emerald-400 rounded-full border-2 border-[#07090e] animate-pulse" />
           </div>
 
-          <div className="flex items-center gap-2.5">
+          <div className="flex items-center">
             <span className="font-extrabold text-2xl sm:text-[26px] tracking-tight text-white leading-none">
               Pulse<span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">Brief</span>
-            </span>
-            <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 tracking-wider uppercase backdrop-blur-sm">
-              v1.2 Live
             </span>
           </div>
         </div>
