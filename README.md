@@ -97,7 +97,7 @@ Built and architected by **Ruthvik** — Full-Stack AI Engineer & MVP Specialist
 - **Services**: Rapid 5–7 Day AI MVP Development, Next.js Full-Stack Architecture, Data Pipeline Engineering.
 - **📅 Schedule a 15-Min Scoping Call**: [cal.com/ruthvikyem/15min](https://cal.com/ruthvikyem/15min)
 - **✉️ Direct Inquiries**: [yemmeruthvik16@gmail.com](mailto:yemmeruthvik16@gmail.com)
-- **🌐 Live Demo**: [pulsebrief.vercel.app](https://pulsebrief.vercel.app)
+- **🌐 Live Demo**: [pulsebrief.vercel.app](https://pulsebrief-one.vercel.app)
 
 ---
 
